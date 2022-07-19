@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3A4042;
+  border-bottom: 10px solid #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  color: white;
+  text-shadow: 5px 5px 0px #000000;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  align-items: center;
+  color: #C4C4C4;
+  text-decoration: none;
+  margin-right: 30px; 
+}
+
+a:before { /* Criação do quadrado */
+  content:"";
+  background-color: #62C370;
+  width: 10px; 
+  height: 10px;
+  margin-right: 10px;
+}
+
+#button {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 0px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: linear-gradient(180deg, #72E384 0%, #3EB33E 100%);
+  box-shadow: 5px 5px 0px #000000;
+
+  transition: transform 200ms linear; 
+
+}
+
+#button:hover {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 0px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: white;
+  box-shadow: 5px 5px 0px #000000;
+
+  transform: scale(1.03);
+  
+}
