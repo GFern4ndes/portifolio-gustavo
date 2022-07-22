@@ -33,15 +33,15 @@ a {
   margin-right: 30px; 
 }
 
-a:before { /* Criação do quadrado */
-  content:"";
+/*a:before { /* Criação do quadrado */
+  /*content:"";
   background-color: #62C370;
   width: 10px; 
   height: 10px;
   margin-right: 10px;
-}
+} */
 
-#button {
+.button {
   display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
   /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
   height: 60px;
@@ -63,7 +63,7 @@ a:before { /* Criação do quadrado */
 
 }
 
-#button:hover {
+.button:hover {
   display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
   /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
   height: 60px;
@@ -83,4 +83,164 @@ a:before { /* Criação do quadrado */
 
   transform: scale(1.03);
   
+}
+
+
+.name {
+  font-family: 'Press Start 2P', sans-serif;
+
+  color: #72E384;
+  font-size: 36px;
+  text-shadow: 4px 4px 0px #000000;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.job {
+
+  font-family: 'Press Start 2P', sans-serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-shadow: 4px 4px 0px #000000;
+  padding-left: 50px;
+  padding-top: 32px;
+}
+
+.box1 {
+  position: absolute;
+  display: inline-block;
+  background: #3A4042;
+  width: 630px;
+  height: 190px;
+  left: 91px;
+  top: 196px;
+  box-shadow: 5px 5px 0px #000;
+}
+
+.button2 {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 110px;
+  margin-left: 181px;
+  margin-top: 315px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: linear-gradient(180deg, #72E384 0%, #3EB33E 100%);
+  box-shadow: 5px 5px 0px #000000;
+
+  transition: transform 200ms linear; 
+}
+
+.button2:hover {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 110px;
+  margin-left: 181px;
+  margin-top: 315px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: white;
+  box-shadow: 5px 5px 0px #000000;
+
+  transform: scale(1.03);
+  
+}
+
+.button3 {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  position: absolute;
+  width: 130px;
+  height: 60px;
+  padding-left: 35px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 110px;
+  margin-left: 450px;
+  margin-top: 315px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: linear-gradient(180deg, #72E384 0%, #3EB33E 100%);
+  box-shadow: 5px 5px 0px #000000;
+
+  transition: transform 200ms linear; 
+}
+
+.button3:hover {
+  display: inline-block; /* O inline vem por padrão e não permite definir o weight e o height (largura e altura) */
+  /* O  display block permite definir largura e altura. Caso não tenha valor disponível, ele vai seguir os parâmetros do pai. No caso da Nav, será o Header.*/
+  position: absolute;
+  width: 130px;
+  height: 60px;
+  padding-left: 35px;
+  padding-right: 20px;
+  line-height: 60px; /* Centralizar o texto no botão pra quando houver apenas uma linha. Mesmo tamanho do height */
+  margin-right: 110px;
+  margin-left: 450px;
+  margin-top: 315px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.015em;
+  color: #28342B;
+
+  background: white;
+  box-shadow: 5px 5px 0px #000000;
+
+  transform: scale(1.03);
+  
+}
+
+.image1 {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  width: 1100px;
+  height: 797px;
+  left: 0px;
+  top: 80px;
+  border-bottom: 10px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.image2 {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  object-fit: cover;
+  width: 629px;
+  height: 797px;
+  left: 1103px;
+  top: 90px;
+  border-bottom: 10px solid #000000;
 }
